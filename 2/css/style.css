@@ -1,0 +1,323 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Светлый фон */
+}
+
+header {
+    background: #0c0c0c; /* Темно-синий цвет заголовка */
+    color: #ecf0f1;
+    padding: 40px 0;
+    max-width: 1980px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Тень для заголовка */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+h3 {
+    font-size: 70px;
+  }
+  
+  ul {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #727272;
+    margin-bottom: 13px;
+    font-family: "Muli", sans-serif;
+  }
+  
+  .free {
+    color: #000000;
+    font-family: 'Impact', 'Verdana', sans-serif;
+    word-break:inherit;
+    font-size: 70px;
+    position: relative;
+    left: 500px;
+  }
+
+  .free1 {
+    color: #000000;
+    font-style: inherit;
+    font-family: 'Impact', 'Verdana', sans-serif;
+    word-break:inherit;
+    font-size: 30px;
+    position: relative;
+    left: 200px;
+    top: 100px;
+  }
+
+  .free21 {
+    color: #ffffff;
+    font-family: 'Impact', 'Verdana', sans-serif;
+    word-break:inherit;
+    font-size: 70px;
+    position: relative;
+    left: 500px;
+  }
+
+  .free2 {
+    color: #fdfdfd;
+    font-style: inherit;
+    font-family: 'Impact', 'Verdana', sans-serif;
+    word-break:inherit;
+    font-size: 30px;
+    position: relative;
+    left: 200px;
+    top: 100px;
+  }
+
+
+  
+  
+
+  h3 {
+    font-size: 10px;
+  }
+  
+  .overlay2 {
+    position: relative;
+    z-index: 0;
+  }
+  
+  .overlay2::before {
+    position: absolute;
+    content: "";
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.4) 0%, black 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.4) 0%, black 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, black 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66000000', endColorstr='#000000',GradientType=0 );
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+  }
+  
+  .slider_bg_1 {
+    background-image: url(/img/phot.png);
+    width: 100%;
+    max-width: 1980px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .GG{
+    color: #ffffff;
+    font-family: 'Impact', 'Verdana', sans-serif;
+    word-break:inherit;
+
+    font-size: 70px;
+  }
+
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+  }
+  
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3 {
+    margin: 0 0 10px;
+  }
+  
+  #projects {
+    padding: 20px;
+    background: #f4f4f4;
+  }
+  
+  .project {
+    margin-bottom: 30px;
+    max-width: 1970px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    background: white;
+    border: 1px solid #ddd;
+  }
+
+  .project2 {
+    margin-bottom: 30px;
+    max-width: 1970px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    background: rgb(0, 0, 0);
+    border: 1px solid #ddd;
+  }
+  
+  .slider_area .single_slider {
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  .slider_area .single_slider .slider_text h3 {
+    color: #FFF;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+
+#projects {
+    padding: 20px;
+}
+
+h3 {
+    font-size: 70px;
+  }
+  
+  ul {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #727272;
+    margin-bottom: 13px;
+    font-family: "Muli", sans-serif;
+  }
+  
+  h3 {
+    font-size: 10px;
+  }
+  
+
+
+  .photo21 {
+    position: absolute;
+    left: -60px;
+    top: -400px;
+  }
+
+.project {
+    margin-bottom: 30px;
+    padding: 15px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.back-to-home {
+    background-color: #2f1541; /* Синий цвет кнопки */
+    color: white; /* Цвет текста кнопки */
+    border: none; /* Без границы */
+    border-radius: 5px; /* Сглаженные углы */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Курсор в виде указателя при наведении */
+    transition: background-color 0.3s, transform 0.2s; /* Плавный переход при наведении */
+    margin-top: 10px; /* Отступ сверху для кнопки */
+  }
+  
+  .back-to-home:hover {
+    background-color: #070713; /* Темнее при наведении */
+    transform: translateY(-2px); /* Эффект поднятия при наведенииы */
+  }
+  
+  .back-to-home:active {
+    transform: translateY(0); /* Возвращение при нажатии */
+  }
+
+.project-header {
+    display: flex;
+    align-items: center;
+}
+
+.project-video {
+    width: 30%;
+    margin-right: 20px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.media {
+    display: flex; /* Меняем это на flex, чтобы расположить изображения в строку */
+    flex-wrap: wrap; /* Позволяет изображениям переходить на следующую строку при необходимости */
+}
+
+.media img {
+    padding: 10px;
+    max-width: 20%; /* Ограничиваем максимальную ширину изображения */
+    height: auto; /* Высота будет адаптироваться */
+    margin-right: 10px; /* Добавляем отступ между изображениями */
+    margin-bottom: 10px; /* Отступ снизу, если изображение переходит на новую строку */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    max-width: 1970px;
+    margin-left: auto;
+    margin-right: auto;
+}
